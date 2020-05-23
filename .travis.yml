@@ -11,3 +11,6 @@ script:
 notifications:
   email: false
   slack: toysmore:vqiigMOfdyuRlEIuJtkuNkby
+  template:
+      - "%{repository_slug} (%{commit}) : %{message}"
+      - "Build details: %{build_url}"
