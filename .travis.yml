@@ -10,7 +10,8 @@ script:
 - yarn lint
 notifications:
   email: false
-  slack: toysmore:r1Bbi4nviv7a4NCtr2dWUUig
+  slack: 
+    toysmore:r1Bbi4nviv7a4NCtr2dWUUig
     on_success: change
     on_pull_requests: false
     template:
