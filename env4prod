@@ -1,0 +1,10 @@
+SLATE_STORE=toys-n-more-toys.myshopify.com
+
+
+SLATE_PASSWORD=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
+
+
+SLATE_THEME_ID=96684540044
+
+
+SLATE_IGNORE_FILES=config/settings_data.json
