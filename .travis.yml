@@ -10,10 +10,4 @@ script:
 - yarn lint
 notifications:
   email: false
-  slack: 
-    toysmore:r1Bbi4nviv7a4NCtr2dWUUig
-    on_success: change
-    on_pull_requests: false
-    template:
-      - "%{repository_slug} (%{commit}) : %{message}"
-      - "Build details: %{build_url}"
+  slack: toysmore:vqiigMOfdyuRlEIuJtkuNkby
