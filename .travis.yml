@@ -13,6 +13,6 @@ notifications:
   email: false
   slack: toysmore:vqiigMOfdyuRlEIuJtkuNkby
   template:
-    - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository_slug}@%{branch} in PR <%{pull_request_url}|#%{pull_request_number}> by %{author} %{result} in %{duration}"
-    - "Execution time: *%{duration}*"
-    - "Message: %{message}"
+     - "Repo `%{repository_slug}` *%{result}* build (<%{build_url}|#%{build_number}>) for commit (<%{compare_url}|%{commit}>) on branch `%{branch}`."
+     - "Execution time: *%{duration}*"
+     - "Message: %{message}"
