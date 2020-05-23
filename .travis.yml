@@ -8,6 +8,7 @@ cache:
 script:
 - yarn build
 - yarn lint
+- yarn deploy
 notifications:
   email: false
   slack: toysmore:vqiigMOfdyuRlEIuJtkuNkby
